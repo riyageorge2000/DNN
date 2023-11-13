@@ -10,7 +10,7 @@ from tensorflow.keras.optimizers import RMSprop, Adam
 # load the dataset
 print("Loading Dataset generation Intiated..")
 
-path = 'https://raw.githubusercontent.com/adityaiiitmk/Datasets/master/iris.csv'
+path = 'iris.csv'
 df = pd.read_csv(path, header=None)
 
 X=df.values[:,:-1]
